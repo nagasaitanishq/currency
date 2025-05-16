@@ -1,0 +1,119 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #009999; /* Matching blue-green shade */
+    text-align: center;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+h1 {
+    font-family: 'Fantasy', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+
+/* Container */
+.contaner {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    display: inline-block;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    width: 90%;
+    max-width: 500px; /* Prevents excessive stretching on large screens */
+    height: auto;
+}
+
+/* Input Amount */
+.before input {
+    width: 350px;
+    padding: 10px;
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+/* Converter Box */
+.Converter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+/* Currency Section */
+.from, .to {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Flag Images */
+.from img, .to img {
+    width: 90px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+/* Dropdowns */
+select {
+    padding: 8px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid black;
+    background: white;
+    transition: 0.3s ease-in-out;
+}
+
+select:hover {
+    background-color: black;
+    color: white;
+}
+
+/* Arrow Image */
+#img {
+    width: 60px;  /* Decreased size */
+    height: 60px; /* Decreased size */
+    padding: 2rem;
+}
+
+/* Exchange Button */
+.btn {
+    margin-top: 20px;
+}
+
+.btn button {
+    background-color: white;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 2px solid black;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    border-radius: 5px;
+}
+
+.btn button:hover {
+    background-color: red;
+    color: white;
+}
+
+/* Exchange Rate Display */
+.After {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
